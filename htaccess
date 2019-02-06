@@ -1,0 +1,9 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+
+#AddDefaultCharset utf-8
+#
+#RewriteBase /
+#
+#ErrorDocument 404 http://www.ceitpucmm.edu.do/404.shtml
+
+DirectoryIndex home
