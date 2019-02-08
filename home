@@ -152,6 +152,8 @@
 </header>
 
 <!-- Page Content -->
+<div style="background-color: #eaeaf2; padding-top: 0.02px;">
+
 <div class="container">
 
   <!-- Portfolio Section -->
@@ -251,25 +253,12 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <img class="card-img-top"
-          src= "static/img/proximamente-comprimida.jpg "
-          alt="">
-        <div class="card-body">
-          <h4 class="card-title">
-            <div class="text-primary">Próximamente</div>
-          </h4>
-          <p class="card-text">
-            Próximamente.
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
   <!-- /.row -->
 </div>
+</div>
 <!-- /.container -->
+<div style="padding-top: 20px;">
 <div class="container">
   <!-- Features Section -->
   <div class="row">
@@ -313,6 +302,7 @@
   <!-- /.row -->
 
   <hr>
+</div>
 </div>
 <!-- /.container -->
 
