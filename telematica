@@ -35,7 +35,7 @@
   <!-- NAVIGATION: -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="/index">
+      <a class="navbar-brand" href="home">
         <img class="noshow-if-mobile"
         src= "static/img/logo-ceit.png "
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática"
@@ -54,18 +54,18 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-primary" href="index.html">Home</a>
+            <a class="nav-link text-primary" href="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="telematica.html">Telemática</a>
+            <a class="nav-link text-primary" href="telematica">Telemática</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="nosotros.html">Nosotros
+            <a class="nav-link text-primary" href="nosotros">Nosotros
               <span class="badge badge-success">¡Directiva 2018!</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="contacto.html">Contacto</a>
+            <a class="nav-link text-primary" href="contacto">Contacto</a>
           </li>
         </ul>
       </div>

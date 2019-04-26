@@ -33,9 +33,9 @@
   <body>
 
   <!-- NAVIGATION: -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="/index">
+      <a class="navbar-brand" href="home">
         <img class="noshow-if-mobile"
         src= " static/img/logo-ceit.png "
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática"
@@ -54,18 +54,18 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-primary" href="index.html">Home</a>
+            <a class="nav-link text-primary" href="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="telematica.html">Telemática</a>
+            <a class="nav-link text-primary" href="telematica">Telemática</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="nosotros.html">Nosotros
+            <a class="nav-link text-primary" href="nosotros">Nosotros
               <span class="badge badge-success">¡Directiva 2018!</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="contacto.html">Contacto</a>
+            <a class="nav-link text-primary" href="contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -290,7 +290,7 @@
         alt="Card image cap">
         <div class="card-body">
           <p class="card-text"><b>ceit_pucmm</b>
-          Muchas felicidades a los graduandos de la Nonagésima Novena Ceremonia de Graduación STI. En especial, a los ex-miembros de la #FamiliaCEIT, que hoy emprenden un nuevo camino en sus vidas: Harold Díaz, José Sánchez, Sarahaime Rodríguez, Ray Hernández, José Osoria, Nahaliel García y Yoleidy Diloné. Todos, estudiantes ejemplares, ¡Estamos muy orgullosos de ustedes! <br> Recordando la frase del sacerdote y escritor español José Luis Martín: “No es grande el que triunfa, sino el que jamás se desalienta”. <br> #CEITPUCMM #99GradSTI #OrgulloCEIT💙🎓</p>
+          <div id="instagram-status"></div><br>
           <a href="https://www.instagram.com/ceit_pucmm/"
           class="btn btn-danger">
             <i class="fas fa-heart"></i> Seguir en Instagram
@@ -353,6 +353,27 @@
     </section>
   </footer>
   <!-- END Footer -->
+
+  <script>
+  var txtFile = new XMLHttpRequest();
+  txtFile.open("GET", "https://ceit-web.azurewebsites.net/static/python/last_post_caption.txt", true);
+  txtFile.onreadystatechange = function() {
+    if (txtFile.readyState === 4) {  // Makes sure the document is ready to parse.
+      if (txtFile.status === 200) {  // Makes sure it's found the file.
+        allText = txtFile.responseText;
+      //  lines = txtFile.responseText.split("\n"); // Will separate each line into an array
+
+        instagramElement = document.getElementById("instagram-status");
+        instagramText = document.createTextNode(allText);
+        instagramElement.appendChild(instagramText);
+
+        console.log(allText);
+      }
+    }
+  }
+  txtFile.send(null);
+
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="static/vendor/jquery/jquery.min.js "></script>
