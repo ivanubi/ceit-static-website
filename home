@@ -356,7 +356,7 @@
 
   <script>
   var txtFile = new XMLHttpRequest();
-  txtFile.open("GET", "https://ceit-web.azurewebsites.net/static/python/last_post_caption.txt", true);
+  txtFile.open("GET", "http://ceit-web.azurewebsites.net/static/python/last_post_caption.txt", true);
   txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4) {  // Makes sure the document is ready to parse.
       if (txtFile.status === 200) {  // Makes sure it's found the file.
