@@ -8,8 +8,13 @@
     <meta name="description" content="Web del Comité de Estudiantes de Ingeniería
     Telemática (CEIT) de la universidad Pontificia Universidad Católica Madre y
     Maestra (PUCMM)">
-    <meta name="author" content="CEIT Comité de Estudiantes de Ingeniería Telemática">
+    <meta name="author" content="CEIT Comité de Estudiantes de Ingeniería Telemática PUCMM">
 
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-store" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
     <title>
 CEIT - Nosotros
 </title>
@@ -43,7 +48,7 @@ CEIT - Nosotros
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática"
         title="Logo del Comité de Estudiantes de Ingeniería Telemática">
         <img class="show-if-mobile"
-        src= "static/img/logo-ceit-mobile.png "
+        src= "static/img/logo-ceit-mobile.png " width="50" height="50"
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática" title="Logo del
         Comité de Estudiantes de Ingeniería Telemática">
       </a>
@@ -149,38 +154,38 @@ href="static/css/perfiles.css ">
 
 <div class="container">
   <div class="h2 text-primary">
-    Directiva 2018
+    Directiva 2019
   </div>
   <section id="perfiles">
   <br>
   <div>
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/yamilka.png "
+      src="static/img/perfiles/wendycruz.png"
       alt="Presidente"/>
-      <p class="perfil-nombre">Yamilka Vásquez</p>
-      <p class="perfil-cargo"><b>Presidente</b></p>
+      <p class="perfil-nombre">Wendy Cruz</p>
+      <p class="perfil-cargo"><b>Presidenta</b></p>
     </article>
 
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/vilma.png "
+      src="static/img/perfiles/cristinadeleon.png"
       alt="Vice-Presidente"/>
-      <p class="perfil-nombre">Vilma Vidal</p>
-      <p class="perfil-cargo"><b>Vice-Presidente</b>
+      <p class="perfil-nombre">Cristina de León</p>
+      <p class="perfil-cargo"><b>Vice-Presidenta</b>
     </article>
       <article>
         <img class="perfil-foto"
-        src="static/img/perfiles/alejandro.png "
+        src="static/img/perfiles/pamela.png"
         alt="Tesorero"/>
-        <p class="perfil-nombre">Alejandro Colón</p>
-        <p class="perfil-cargo"><b>Tesorero</b></p>
+        <p class="perfil-nombre">Pamela Hernández</p>
+        <p class="perfil-cargo"><b>Tesorera</b></p>
       </article>
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/oscar.png "
+      src="static/img/perfiles/jeisondiaz.png"
       alt="Secretario"/>
-      <p class="perfil-nombre">Oscar Rodríguez</p>
+      <p class="perfil-nombre">Jeison Diaz</p>
       <p class="perfil-cargo"><b>Secretario</b></p>
     </article>
   </div>
@@ -188,23 +193,23 @@ href="static/css/perfiles.css ">
 
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/harold.png "
+      src="static/img/perfiles/janiacorona.png"
       alt="Coordinador de Logística"/>
-      <p class="perfil-nombre">Harold Díaz</p>
-      <p class="perfil-cargo"><b>Coordinador de Logística</b></p>
+      <p class="perfil-nombre">Jania Corona</p>
+      <p class="perfil-cargo"><b>Coordinadora de Logística</b></p>
     </article>
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/sara.png "
+      src="static/img/perfiles/ivanubinas.png"
       alt="Coordinador de Tecnología"/>
-      <p class="perfil-nombre">Sarahaime Rodríguez</p>
-      <p class="perfil-cargo"><b>Coordinadora de TI</b></p>
+      <p class="perfil-nombre">Iván Ubiñas</p>
+      <p class="perfil-cargo"><b>Coordinador de Tecnología</b></p>
     </article>
     <article>
       <img class="perfil-foto"
-      src="static/img/perfiles/felix.png "
+      src="static/img/perfiles/geovanyguarenio.png"
       alt="Relacionador Público"/>
-      <p class="perfil-nombre">Félix Tejada</p>
+      <p class="perfil-nombre">Geovanny Guareño</p>
       <p class="perfil-cargo"><b>Relacionador Público</b>
     </article>
   </div>

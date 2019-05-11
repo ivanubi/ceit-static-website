@@ -6,9 +6,9 @@ body {
   padding-top: 99px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 501px) {
   body {
-    padding-top: 99px;
+    padding-top: 75px;
   }
 }
 

@@ -8,7 +8,13 @@
     <meta name="description" content="Web del Comité de Estudiantes de Ingeniería
     Telemática (CEIT) de la universidad Pontificia Universidad Católica Madre y
     Maestra (PUCMM)">
-    <meta name="author" content="CEIT Comité de Estudiantes de Ingeniería Telemática">
+    <meta name="author" content="CEIT Comité de Estudiantes de Ingeniería Telemática PUCMM">
+
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-store" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
 
     <title>CEIT Comité de Estudiantes de Ingeniería Telemática</title>
 
@@ -41,7 +47,7 @@
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática"
         title="Logo del Comité de Estudiantes de Ingeniería Telemática" >
         <img class="show-if-mobile"
-        src= "static/img/logo-ceit-mobile.png "
+        src= "static/img/logo-ceit-mobile.png" width="50" height="50"
         alt="Logo del Comité de Estudiantes de Ingeniería Telemática" title="Logo del
         Comité de Estudiantes de Ingeniería Telemática" >
       </a>
@@ -61,7 +67,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link text-primary" href="nosotros">Nosotros
-              <span class="badge badge-success">¡Directiva 2018!</span>
+              <span class="badge badge-success">¡Directiva 2019!</span>
             </a>
           </li>
           <li class="nav-item">
@@ -83,24 +89,25 @@
       <ol class="carousel-indicators">
         <li data-target="#mobileCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#mobileCarousel" data-slide-to="1"></li>
-        <li data-target="#mobileCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
+        <!--
         <div class="carousel-item active">
           <img src= "static/img/slide2-mobile.jpg "
            style="height: 100%; width: 100%;"/>
-        <!--   <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block">
             <h3>Slide Title</h3>
             <p>This is a description for the slide.</p>
-          </div>-->
+          </div>
         </div>
+        -->
         <div class="carousel-item">
           <img src= " static/img/slide3-mobile.jpg "
           style="height: 100%; width: 100%;"/>
         </div>
-        <div class="carousel-item">
-          <img src= "static/img/slide4-mobile.jpg "
-          style="height: 100%; width: 100%;"/>
+        <div class="carousel-item active">
+          <a href="telematica"><img src= "static/img/slide4-mobile.jpg "
+          style="height: 100%; width: 100%;"/></a>
         </div>
       </div>
       <a class="carousel-control-prev" href="#mobileCarousel" role="button" data-slide="prev">
@@ -116,30 +123,26 @@
   <!-- Carousel on desktop -->
   <div class="noshow-if-mobile">
     <div id="standardCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+    <!--   <ol class="carousel-indicators">
         <li data-target="#standardCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#standardCarousel" data-slide-to="1"></li>
         <li data-target="#standardCarousel" data-slide-to="2"></li>
-      </ol>
+      </ol>-->
       <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
+      <!--    <div class="carousel-item active">
           <img src= " static/img/slide2.jpg "
           style="height: 100%; width: 100%;"/>
-        <!--   <div class="carousel-caption d-none d-md-block">
+         <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the second slide.</p>
-          </div>-->
-        </div>
-        <div class="carousel-item">
-          <img src= " static/img/slide3.jpg "
-          style="height: 100%; width: 100%;"/>
-        </div>
-        <div class="carousel-item">
-          <img src= " static/img/slide4.jpg "
-          style="height: 100%; width: 100%;"/>
+          </div>
+        </div> -->
+        <div class="carousel-item active">
+          <a href="telematica"><img src= "static/img/slide4.jpg"
+          style="height: 100%; width: 100%;"/></a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#standardCarousel" role="button" data-slide="prev">
+      <!--  <a class="carousel-control-prev" href="#standardCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
       </a>
@@ -147,6 +150,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Siguiente</span>
       </a>
+      -->
     </div>
   </div>
 </header>
@@ -167,7 +171,7 @@
           alt="">
         <div class="card-body">
           <h4 class="card-title">
-            <div class="text-primary">Charla Mercado Laboral</div>
+            <div class="text-primary">Charla Mercado Laboral 2019</div>
           </h4>
           <p class="card-text">
             Se realiza anualmente con el fin de encaminar a todos
@@ -185,7 +189,7 @@
           alt="">
         <div class="card-body">
           <h4 class="card-title">
-            <div class="text-primary">Students Gaming Championship (SGC)</div>
+            <div class="text-primary">Students Gaming Championship 2019</div>
           </h4>
           <p class="card-text">
             Actividad de recreación competitiva que organiza el Comité,
@@ -206,7 +210,7 @@
           alt="">
         <div class="card-body">
           <h4 class="card-title">
-            <div class="text-primary">Torneo de Redes 2018</div>
+            <div class="text-primary">Torneo de Redes 2019</div>
           </h4>
           <p class="card-text">
             Competencia estudiantil enfocada en el conocimiento de las redes
@@ -243,7 +247,7 @@
            alt="">
         <div class="card-body">
           <h4 class="card-title">
-            <div class="text-primary">Raspberry Jam</div>
+            <div class="text-primary">Raspberry Jam 2019</div>
           </h4>
           <p class="card-text">
             Actividad anual realizada para fomentar el uso de las Raspberry Pi
@@ -356,7 +360,7 @@
 
   <script>
   var txtFile = new XMLHttpRequest();
-  txtFile.open("GET", "http://ceit-web.azurewebsites.net/static/python/last_post_caption.txt", true);
+  txtFile.open("GET", "https://ceit-web.azurewebsites.net/static/python/last_post_caption.txt", true);
   txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4) {  // Makes sure the document is ready to parse.
       if (txtFile.status === 200) {  // Makes sure it's found the file.
